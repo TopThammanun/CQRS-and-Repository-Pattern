@@ -1,5 +1,5 @@
-﻿using CQRS_and_Repository_Pattern.Database.Model.Entities;
-using CQRS_and_Repository_Pattern.Queries.GenderQueries;
+﻿using CQRS_and_Repository_Pattern.CommandsAndQueries.Queries.GenderQueries;
+using CQRS_and_Repository_Pattern.Database.Model.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

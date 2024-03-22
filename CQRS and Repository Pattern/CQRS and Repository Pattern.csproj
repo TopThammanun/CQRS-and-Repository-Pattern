@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\GenderCommand\" />
+    <Folder Include="CommandsAndQueries\Commands\GenderCommand\" />
     <Folder Include="GraphQL\Commands\" />
   </ItemGroup>
 

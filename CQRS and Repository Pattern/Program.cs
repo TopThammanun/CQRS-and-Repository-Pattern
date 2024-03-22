@@ -1,7 +1,7 @@
 using Application;
 using CQRS_and_Repository_Pattern.Database;
+using CQRS_and_Repository_Pattern.Database.Repositories;
 using CQRS_and_Repository_Pattern.GraphQL.QueryTypes;
-using CQRS_and_Repository_Pattern.Repositories;
 using CQRS_and_Repository_Pattern.Services;
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;

@@ -1,7 +1,7 @@
 ﻿using CQRS_and_Repository_Pattern.Database.Model.Entities;
 using MediatR;
 
-namespace CQRS_and_Repository_Pattern.Queries.GenderQueries
+namespace CQRS_and_Repository_Pattern.CommandsAndQueries.Queries.GenderQueries
 {
     public class GetGenderByIdQuery : IRequest<PcuMstGender>
     {

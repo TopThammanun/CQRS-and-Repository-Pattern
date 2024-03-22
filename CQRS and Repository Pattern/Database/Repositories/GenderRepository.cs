@@ -2,7 +2,7 @@
 using CQRS_and_Repository_Pattern.Database.Model.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CQRS_and_Repository_Pattern.Repositories
+namespace CQRS_and_Repository_Pattern.Database.Repositories
 {
     public interface IGenderRepository
     {
@@ -18,7 +18,7 @@ namespace CQRS_and_Repository_Pattern.Repositories
 
         public GenderRepository(ApplicationDbContext dbContextClass)
         {
-            this._dbContext = dbContextClass;
+            _dbContext = dbContextClass;
         }
         public async Task<PcuMstGender> AddStudentAsync(PcuMstGender studentDetails)
         {
